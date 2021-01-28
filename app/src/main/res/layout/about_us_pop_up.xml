@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_gravity="center"
     android:layout_width="350dp"
@@ -35,20 +36,66 @@
                 android:layout_marginLeft="15dp"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:text="third party license"/>
+                android:text="third party policy"/>
 
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:id="@+id/link"
+                android:textSize="18dp"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:padding="10dp"
+                android:clickable="true"
+                android:text="https://newsapi.org"/>
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/link1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="https://square.github.io/retrofit" />
+            <TextView
+                android:id="@+id/link2"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:textSize="18dp"
                 android:padding="10dp"
-                android:text="
-https://newsapi.org\n
-https://square.github.io/retrofit\n
-https://material.io/design\n
-http://www.ocpsoft.org/prettytime"/>
+                android:clickable="true"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:text="https://material.io/design" />
+            <TextView
+                android:id="@+id/link3"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:clickable="true"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:padding="10dp"
+                android:text="http://www.ocpsoft.org/prettytime" />
+            <TextView
+                android:id="@+id/link4"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="https://newsapi.org/privacy"
+                 />
+
         </LinearLayout>
 
 

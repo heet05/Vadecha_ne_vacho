@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.1" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vadecha_ne_vacho">
+    package="com.heet.vadecha_ne_vacho">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,15 +15,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vadecha_ne_vacho"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".SplashScreen" android:screenOrientation="locked" >
+                <meta-data
+                    android:name="com.google.android.gms.ads.APPLICATION_ID"
+                    android:value="ca-app-pub-6788818386275854~4857130307"/>
+
+        <activity android:name="com.heet.vadecha_ne_vacho.MainActivity"></activity>
+        <activity android:name="com.heet.vadecha_ne_vacho.SplashScreen" android:screenOrientation="locked" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Detailed" android:screenOrientation="locked" android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name="com.heet.vadecha_ne_vacho.Detailed" android:screenOrientation="locked" android:windowSoftInputMode="stateHidden"></activity>
 
     </application>
 

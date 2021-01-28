@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927228677726",
+    "project_id": "vadecha-ne-vacho",
+    "storage_bucket": "vadecha-ne-vacho.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927228677726:android:613cd55d916e11fcb66ecf",
+        "android_client_info": {
+          "package_name": "com.heet.vadecha_ne_vacho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927228677726-kd5ohhbl7bkpvaodktfo052sm3fop65g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7VwOd-9cGPD311vAHmlrhRp42ehVQjtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927228677726-kd5ohhbl7bkpvaodktfo052sm3fop65g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
