@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:drawablePadding="20dp"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Heet Vadecha"/>
+
+            <TextView
+                android:id="@+id/txt_call"
+                android:drawablePadding="20dp"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                android:textColor="@android:color/holo_blue_light"
+                android:text="+91 8780272970"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_email"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="heetvadecha05@gmail.com"/>
+
+
+
+            <TextView
+                android:id="@+id/txt_address"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@drawable/ic_baseline_add_location_24"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="18sp"
+                android:text="13,kirtiMandrid Soc.,Nr jamine flat Chandernager, Ahmedabad 380007"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

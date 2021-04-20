@@ -95,6 +95,18 @@
                 android:padding="10dp"
                 android:text="https://newsapi.org/privacy"
                  />
+            <TextView
+                android:id="@+id/link5"
+                android:textColor="@android:color/holo_blue_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+
+                android:linksClickable="true"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text="About Us"
+                />
 
         </LinearLayout>
 
