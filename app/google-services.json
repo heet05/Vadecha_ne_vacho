@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:927228677726:android:613cd55d916e11fcb66ecf",
         "android_client_info": {
-          "package_name": "com.heet.vadecha_ne_vacho"
+          "package_name": "com.example.vadecha_ne_vacho"
         }
       },
       "oauth_client": [
@@ -20,7 +20,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB7VwOd-9cGPD311vAHmlrhRp42ehVQjtc"
+          "current_key": "AIzaSyC5YVqJ_HNHNDdl7VsOG6D7ZmHJXx2drCk"
         }
       ],
       "services": {
@@ -33,6 +33,65 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927228677726:android:5916af0dbeb248adb66ecf",
+        "android_client_info": {
+          "package_name": "com.heetVadecha.vadecha_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927228677726-kd5ohhbl7bkpvaodktfo052sm3fop65g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5YVqJ_HNHNDdl7VsOG6D7ZmHJXx2drCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927228677726-kd5ohhbl7bkpvaodktfo052sm3fop65g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927228677726:android:4334f3ef51daadafb66ecf",
+        "android_client_info": {
+          "package_name": "com.vadecha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927228677726-kd5ohhbl7bkpvaodktfo052sm3fop65g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5YVqJ_HNHNDdl7VsOG6D7ZmHJXx2drCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927228677726-kd5ohhbl7bkpvaodktfo052sm3fop65g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6788818386275854~4857130307"
     }
   ],
   "configuration_version": "1"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.heet.vadecha_ne_vacho">
+    package="com.heetVadecha.vadecha_news">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,16 +15,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Vadecha_ne_vacho"
         android:usesCleartextTraffic="true">
-        <activity android:name=".AboutUsActivity"></activity>
+        <activity android:name="com.heetVadecha.vadecha_news.AboutUsActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-6788818386275854~4857130307" />
 
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.heetVadecha.vadecha_news.MainActivity" />
         <activity
-            android:name=".SplashScreen"
-            android:screenOrientation="locked">
+            android:name="com.heetVadecha.vadecha_news.SplashScreen"
+            android:screenOrientation="locked"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Detailed"
+            android:name="com.heetVadecha.vadecha_news.Detailed"
             android:screenOrientation="locked"
             android:windowSoftInputMode="stateHidden" />
     </application>
